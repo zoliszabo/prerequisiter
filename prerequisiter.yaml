@@ -1,0 +1,16 @@
+required:
+    extensions:
+        - gd
+        - bcmath
+        - mysqli
+        - test
+
+    functions:
+        - exec
+        - shell_exec
+        - passthru
+        - dummy_function
+
+optional:
+    extensions:
+        - ctype

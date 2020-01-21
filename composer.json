@@ -1,0 +1,27 @@
+{
+    "name": "zoliszabo/prerequisiter",
+    "description": "Runs prerequisite checks needed for your project.",
+    "type": "library",
+    "homepage": "https://github.com/zoliszabo/prerequisiter",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Zoli Szabó",
+            "email": "zoli.szabo+github@gmail.com"
+        }
+    ],
+    "require": {
+        "php": "~7.2.0 || ~7.3.0",
+        "symfony/yaml": "^5.0",
+        "symfony/console": "^5.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Prerequisiter\\": "src/"
+        }
+    },
+    "bin": [
+        "bin/prerequisiter"
+    ],
+    "prefer-stable": true
+}
