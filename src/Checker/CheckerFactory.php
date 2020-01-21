@@ -7,6 +7,7 @@ class CheckerFactory
     private static $factoryMap = [
         'extensions' => PhpExtensionChecker::class,
         'functions' => PhpFunctionChecker::class,
+        'executables' => ExecutablesChecker::class,
     ];
 
     static public function createChecker($type, ...$args) : CheckerInterface
